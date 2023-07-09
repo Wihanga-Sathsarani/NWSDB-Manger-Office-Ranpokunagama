@@ -1,0 +1,145 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor:hwb(187 6% 20%);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor:hsl(240, 4%, 36%);
+    --whiteColorDeam:hsl(0, 0%, 93%);
+    --greyText:rgb(190, 190, 190);
+    --inputColor:rgb(239, 239, 239);
+    --bodyColor:rgb(240, 240, 246);
+    --cardBG:rgb(225, 225, 235);
+}
+
+
+.formDiv{
+    flex-basis: 50%;
+    margin: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+    transform: translateY(1.5rem);
+    background: var(--cardBG);
+    width: 50%;
+    box-shadow: 0 2px 4px  rgba(2, 15, 29, 0.589);
+    
+}
+
+.formDiv .headerDiv{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.formDiv .headerDiv .logo{
+    color: var(--PrimaryColor);
+    
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.formDiv .headerDiv .logo .icon{
+    font-size: 50px;
+    color: var(--SecondaryColor);
+    transform: translateY(5px);
+}
+
+.formDiv h3{
+    font-size: 25px;
+    color: var(--textColor);
+    font-weight: 600;
+}
+
+.formDiv .form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 18px;
+    
+    
+}
+
+
+.formDiv .inputDiv .icon{
+    color: var(--greyText);
+
+}
+
+.formDiv .inputDiv input{
+    background: none;
+    outline: none;
+    border: none;
+    width: 200px;
+}
+
+.formDiv .inputDiv label{
+    color: var(--blackColor);
+    font-weight: 500;
+    font-size: 14px;
+    padding: .5rem 0;
+    display: block;
+}
+
+.formDiv .inputDiv .input{
+    gap: .5rem;
+    padding: .7rem;
+    background: var(--inputColor);
+    border-radius: 10px;
+}
+
+.formDiv .btn{
+    padding: .6rem;
+    border-radius: 10px;
+    color: var(--whiteColor);
+    align-items: center;
+    margin: 15px auto;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+    gap: .5rem;
+    transition: .3s ease;
+    
+}
+
+.formDiv .btn .icon{
+    font-size: 25px;
+    transition: .3s ease;
+}
+
+.formDiv .btn .icon:hover{
+    
+    color: var(--blackColor);
+}
+
+.formDiv .btn .icon:hover .icon{
+    color: var(--blackColor);
+    transform: translateX(5px);
+}
+
+.error-box {
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px  rgba(2, 15, 29, 0.315);
+    
+
+}
+  
+.error-icon {
+    color: red;
+    font-size: 18px;
+    margin-right: 10px;
+}
+  
+.error-message {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+  

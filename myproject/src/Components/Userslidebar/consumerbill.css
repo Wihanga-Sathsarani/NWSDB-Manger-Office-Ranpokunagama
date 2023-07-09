@@ -1,0 +1,92 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor:hwb(187 6% 20%);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor:hsl(240, 4%, 36%);
+    --whiteColorDeam:hsl(0, 0%, 93%);
+    --greyText:rgb(190, 190, 190);
+    --inputColor:rgb(239, 239, 239);
+    --bodyColor:rgb(240, 240, 246);
+    --cardBG:rgb(225, 225, 235);
+    --cardHover: rgb(255, 255, 255);
+}
+
+.consumer-bill {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.main-heading {
+    font-size: 24px;
+    text-align: center;
+    color: var(--PrimaryColor);
+}
+  
+.bill-form {
+    margin-top: 20px;
+}
+  
+.form-group {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: block;
+    
+}
+  
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+  
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+  
+.bill-details {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+}
+  
+.bill-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--PrimaryColor);
+    text-align: center;
+}
+  
+.bill-details p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+  
+.bill-details p:first-child {
+    font-weight: bold;
+}
+  
+.bill-details p:last-child {
+    margin-bottom: 0;
+}
+  

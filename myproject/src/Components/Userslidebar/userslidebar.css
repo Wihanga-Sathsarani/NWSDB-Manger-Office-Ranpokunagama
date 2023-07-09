@@ -1,0 +1,44 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor:hwb(187 6% 20%);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor:hsl(240, 4%, 36%);
+    --whiteColorDeam:hsl(0, 0%, 93%);
+    --greyText:rgb(190, 190, 190);
+    --inputColor:rgb(239, 239, 239);
+    --bodyColor:rgb(240, 240, 246);
+    --cardBG:rgb(225, 225, 235);
+    --cardHover: rgb(255, 255, 255);
+}
+.userslidebar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.userslidebar .s1, .userslidebar .s2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.userslidebar svg {
+    width: 30px;
+    height: 30px;
+    color: gray;
+}
+.userslidebar .s1:hover{
+    background-color: var(--cardBG);
+    border-radius: 5px;
+    cursor: pointer;
+    color: gray;
+}
+.userslidebar .s2{
+    background-color: var(--cardBG);
+    border-radius: 5px;
+    cursor: pointer;
+    color: gray;
+}

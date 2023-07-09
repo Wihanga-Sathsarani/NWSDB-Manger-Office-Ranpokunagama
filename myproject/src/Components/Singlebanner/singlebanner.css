@@ -1,0 +1,41 @@
+.singlebanner{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.singlebanner .bannerimgfilter{
+    position: absolute;
+    height: 100%;
+    
+    width: 100%;
+    background: rgba(47, 106, 127, 0.527);
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+    
+}
+.singlebanner img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+.singlebanner .bannerheading{
+    width: 100%;
+    height: max-content;
+    padding: 10rem 1.5rem 7rem;
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin: auto;
+    color: var(--whiteColor);
+    z-index: 100;
+}

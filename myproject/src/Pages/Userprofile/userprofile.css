@@ -1,0 +1,42 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor:hwb(187 6% 20%);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor:hsl(240, 4%, 36%);
+    --whiteColorDeam:hsl(0, 0%, 93%);
+    --greyText:rgb(190, 190, 190);
+    --inputColor:rgb(239, 239, 239);
+    --bodyColor:rgb(240, 240, 246);
+    --cardBG:rgb(225, 225, 235);
+}
+.userprofile{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.userprofilein{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 20px;
+}
+
+.userprofile .userprofilein .left{
+    width: 20%;
+    /*background: var(--SecondaryColor);*/
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    min-height: 50vh;
+}
+
+.userprofile .userprofilein .right{
+    width: 60%;
+    /*background: var(--SecondaryColor);*/
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    min-height: 50vh;
+}
